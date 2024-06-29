@@ -22,7 +22,7 @@ public class CollisionHandler : MonoBehaviour
     _particleSystem = GetComponent<ParticleSystem>();
   }
 
-  private void OnCollisionEnter(Collision other)
+  void OnCollisionEnter(Collision other)
   {
     if (isTransition)
     {
@@ -69,7 +69,7 @@ public class CollisionHandler : MonoBehaviour
     SceneManager.LoadScene(currentSceneIndex);
   }
 
-  private void LoadNextLevel()
+  public void LoadNextLevel()
   {
     int nextLevelIndex = SceneManager.GetActiveScene().buildIndex + 1;
     SceneManager.LoadScene(nextLevelIndex % SceneManager.sceneCountInBuildSettings);

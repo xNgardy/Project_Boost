@@ -43,6 +43,7 @@
   <ItemGroup>
      <Compile Include="Assets/Scripts/CollisionHandler.cs" />
      <Compile Include="Assets/Scripts/Movement.cs" />
+     <Compile Include="Assets/Scripts/Cheats.cs" />
      <Folder Include="Assets" />
      <Folder Include="Assets/Prefabs" />
      <Folder Include="Assets/Effects" />
