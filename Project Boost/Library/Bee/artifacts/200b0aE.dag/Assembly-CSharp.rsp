@@ -347,6 +347,7 @@
 "Assets/Scripts/Cheats.cs"
 "Assets/Scripts/CollisionHandler.cs"
 "Assets/Scripts/Movement.cs"
+"Assets/Scripts/Oscilator.cs"
 -langversion:9.0
 
 /deterministic
